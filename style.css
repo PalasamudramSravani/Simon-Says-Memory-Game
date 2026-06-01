@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+.btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 30%;
+  border: 8px solid black;
+  margin: 1.5rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.pink {
+  background-color: pink;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.brown {
+  background-color: brown;
+}
+
+.flash {
+  background-color: white;
+}
+.userFlash {
+  background-color: green;
+}
