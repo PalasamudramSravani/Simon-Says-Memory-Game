@@ -12,6 +12,8 @@ let h2 = document.querySelector("h2");
 document.addEventListener("keypress", function () {
   console.log("game is started");
   if (started == false) {
+    document.body.style.background =
+      "linear-gradient(to right, #fbc2eb, #fcd5ce)";
     started = true;
     levelUp();
   }
@@ -56,7 +58,8 @@ function checkAns(idx) {
     }
 
     h2.innerHTML = `Game Over! your score is <b>${level} </b> <br>Press any key to start.`;
-    document.querySelector("body").style.backgroundColor = "red";
+    document.querySelector("body").style.background =
+      "linear-gradient(135deg, #ff9a9e, #ff0000)";
     setTimeout(function () {
       document.querySelector("body").style.backgroundColor = "white";
     }, 150);
